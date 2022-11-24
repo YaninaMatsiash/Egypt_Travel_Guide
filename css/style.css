@@ -1,0 +1,395 @@
+/* anek-telugu-regular - latin */
+@font-face {
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/anek-telugu-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/anek-telugu-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/anek-telugu-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/anek-telugu-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/anek-telugu-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/anek-telugu-v4-latin-regular.svg#AnekTelugu') format('svg'); /* Legacy iOS */
+}
+/* anek-telugu-600 - latin */
+@font-face {
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/anek-telugu-v4-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/anek-telugu-v4-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/anek-telugu-v4-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/anek-telugu-v4-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/anek-telugu-v4-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/anek-telugu-v4-latin-600.svg#AnekTelugu') format('svg'); /* Legacy iOS */
+}
+/* anek-telugu-700 - latin */
+@font-face {
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/anek-telugu-v4-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/anek-telugu-v4-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/anek-telugu-v4-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/anek-telugu-v4-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/anek-telugu-v4-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/anek-telugu-v4-latin-700.svg#AnekTelugu') format('svg'); /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/montserrat-v25-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v25-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v25-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v25-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v25-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v25-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v25-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v25-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-800 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/montserrat-v25-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v25-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v25-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v25-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v25-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v25-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+
+*{
+padding: 0;
+margin: 0;
+border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: centr;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    font-family: 'Anek Telugu';
+    max-width: 100%;
+    background-color:#F2F2F2;
+}
+
+html {
+    scroll-behavior: smooth; 
+    box-sizing: border-box;
+    height: 100%;
+    background-color: F2F2F2;
+}
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.logo{
+  width: 150px;
+  padding-right: 50px;
+}
+.logo::before{
+  content: '';
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 60px;  
+  padding-right: 60px;
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+.menu{
+  display: flex;
+  font-size: 23px;
+  margin-left: 130px;
+}
+.menu a{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0B0614;
+  opacity: 0.8;
+}
+.menu a:hover{
+  color:#FF5029;
+  
+}
+.menu li{
+  margin: 40px;
+}
+.btn_sign{
+  display: flex;
+  background: none;
+  padding: 20px 30px 20px 30px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-family: 'Anek Telugu';
+  font-style: normal;
+    font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  background-color: #FF5029;
+  margin-left: auto;
+}
+.btn_sign:hover{
+color: #F7F7F7;
+background-color: #CD6326;
+}
+.hero{
+  position: relative;
+  width: 1360px;
+  background-color: #FEF4F5;
+  height: 740px;
+  border-radius: 0 0 25px 25px;
+  z-index: 1;
+  border-radius: 30px;
+}
+h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 110px;
+  line-height: 120px;
+  text-align: center;
+  color: #0B0614;
+  padding-top: 117px;
+  padding-left: 210px;
+  padding-right: 210px;
+  position: absolute;
+  z-index: 2;
+
+}
+.banner_first{
+  position: absolute;
+  z-index: 3;
+}
+.form_search{
+ display: flex;
+ justify-content: space-around;
+  width: 1240px;
+  height: 128px;
+  border-radius: 24px;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-left: 45px;
+  background-color: white;
+}
+.form_search_name{
+  padding-bottom: 10px;
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0B0614;
+  opacity: 0.5;
+}
+
+.form_search_select{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  background: none;
+}
+.form_search_option{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0B0614;
+  background: none;
+}
+.form_search_button {
+  align-self: center; 
+  padding: 15px 32px;
+  border: none;
+  border-radius: 16px;
+  background:#FF5029;
+  cursor: pointer;
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#right {
+  border-right: 1px solid #cccbcd;
+}
+.see_guides{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 190px;
+  padding-bottom: 100px;
+}
+.caption{
+  align-self: center; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 30px;
+  color: #0B0614;  
+ }
+.guides_button{
+  align-self: center; 
+  padding: 20px 40px;
+  border: none;
+  border-radius: 12px;
+  background:#FF5029;
+  cursor: pointer;
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;  
+}
+.guides_wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.guides_item{
+  width: 288px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 50px;
+  margin-bottom: 190px;
+}
+.guides_name{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #0B0614;
+  padding-bottom: 15px;
+}
+.guides_sub{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(11, 6, 20, 0.6);
+}
+.ava{
+  width: 188px;
+  border: 2px solid #FF5029;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+.item_star{
+display: flex;
+justify-content: center;
+}
+.img_star{
+  width: 20px;
+  margin-right: 6px;
+  padding-bottom: 10px;
+}
+.img_star:last-child{
+  margin-right: 0;
+}
+.caption_work{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 30px;
+  color: #0B0614;  
+  padding-bottom: 100px;
+  text-align: center;
+}
+.item_work{
+  width: 393px;
+  background-color: #FEF4F5;
+  border-radius: 20px;
+}
+.text_work{ 
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #0B0614;
+  width: 182px;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+.work_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
