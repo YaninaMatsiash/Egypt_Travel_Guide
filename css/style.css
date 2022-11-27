@@ -202,8 +202,6 @@ background-color: #CD6326;
   width: 1360px;
   background-color: #FEF4F5;
   height: 740px;
-  border-radius: 0 0 25px 25px;
-  z-index: 1;
   border-radius: 30px;
 }
 h1{
@@ -231,10 +229,15 @@ h1{
   width: 1240px;
   height: 128px;
   border-radius: 24px;
-  margin: 0 auto;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
   padding-top: 35px;
   padding-left: 45px;
   background-color: white;
+  position: absolute;
+  z-index: 9; 
+  margin-top: 730px;
 }
 .form_search_name{
   padding-bottom: 10px;
@@ -314,6 +317,7 @@ h1{
 .guides_wrap{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 190px;
 }
 .guides_item{
   width: 288px;
@@ -392,4 +396,149 @@ justify-content: center;
   margin-right: auto;
   padding-bottom: 45px;
   padding-top: 45px;
+}
+.guide_in_egypt_wrap{
+  position: relative;
+  width: 1360px;
+  background-image: url(../img/wolk.jpg);
+  height: 740px;
+  border-radius: 30px;
+  z-index: 1;
+  filter: sepia(0.3);
+  margin-bottom: 290px;
+}
+
+.text_guide_in_egypt{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 110px;
+  line-height: 120px;
+  text-align: center;
+  color: #0B0614;
+  padding-top: 160px;
+  position: absolute;
+  z-index: 2;
+  }
+.img_girl{
+  position: absolute;
+  border-radius: 30px;
+  z-index: 3; 
+}
+.referenced_wrap{
+  display: flex;
+  justify-content: space-between;
+  width: 1240px;
+  background: #FFFFFF;
+  box-shadow: 0px 30px 60px rgba(198, 191, 191, 0.18);
+  border-radius: 24px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 9; 
+  margin-top: 730px;
+}
+.text_referenced{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  color: #0B0614;
+  width: 590px;
+  padding-left: 45px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.text_marker{
+  color: #FF5029;
+}
+.btn_wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+.btn_referenced{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 12px;
+  background: #FF5029;
+  cursor: pointer;
+  color: white;
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+}
+.wrap_avatar_team{
+  display: flex;  
+  padding-top: 25px;
+}
+.item_avatar{
+  display: flex;
+  padding-right: 16px;
+}
+.img_avatar{
+  width: 50px;
+  margin-left: -25px;
+}
+.img_avatar:first-child{
+  margin-left: 0;
+}
+.avatar_text{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0B0614;
+  width: 100px;
+}
+.wrap_about{
+  margin-bottom: 190px;
+}
+
+.article_wrap{
+  width: 600px;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-left: 27px;
+  padding-right: 28px;
+}
+.img_hotel{
+  width: 550px;
+  padding-bottom: 30px;
+}
+.article_btn{
+  padding: 8px 20px;
+  background-color:  #FEF4F5;
+  border-radius: 12px;
+  color: #FF5029;
+  margin-bottom: 24px;
+  
+}
+.article_title{
+  width: 355px;
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #0B0614;  
+  padding-bottom: 25px;
+  position: relative;
+}
+.article_title::after{
+  content: url(../img/arrow.svg);
+  position: absolute;
 }
