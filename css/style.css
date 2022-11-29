@@ -504,6 +504,8 @@ justify-content: center;
   width: 100px;
 }
 .wrap_about{
+  display: flex;
+  justify-content: center;
   margin-bottom: 190px;
 }
 
@@ -514,7 +516,10 @@ justify-content: center;
   padding-top: 30px;
   padding-left: 27px;
   padding-right: 28px;
+  margin-bottom: 30px;
+  margin-right: 30px;
 }
+
 .img_hotel{
   width: 550px;
   padding-bottom: 30px;
@@ -528,7 +533,7 @@ justify-content: center;
   
 }
 .article_title{
-  width: 355px;
+  width: 318px;
   font-family: 'Anek Telugu';
   font-style: normal;
   font-weight: 400;
@@ -541,4 +546,125 @@ justify-content: center;
 .article_title::after{
   content: url(../img/arrow.svg);
   position: absolute;
+}
+.article_wrap_sml{
+  display: flex;
+  width: 600px;
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-left: 27px;
+  padding-right: 28px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.img_sml{
+  padding-right: 30px;
+}
+.wrap_sml_article{
+  display: block;
+}
+.wrap{
+  display: block;
+  width: 325px;
+  padding-top: 30px;
+}
+footer{
+  background-color: #0B0614;
+}
+.footer_wrap{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+  margin-bottom: 30px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ffffff;
+}
+.wrap_logo{
+  display: block;
+  width: 333px;
+}
+.logo_footer{
+  padding-bottom: 30px;
+}
+.text_footer{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.caption_footer{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.useful_links{
+  display: block;
+}
+.menu_footer{
+  display: block;
+}
+
+.menu_footer a{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.menu_footer a:hover{
+  color:#FF5029;
+}
+.resourses{
+  display: block;
+}
+.nav_footer {
+  display: block;
+}
+.nav_footer a{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.nav_footer a:hover{
+  color:#FF5029;
+}
+.contact_us{
+  display: block;
+}
+.text_wrap{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.icon{
+  padding-right: 14px;
+}
+.social_icon{
+  width: 40px;
+  padding-right: 8px;
+  margin-top: 10px;
+}
+.end_wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.push{
+  
+  margin-right: auto;
+  
 }
