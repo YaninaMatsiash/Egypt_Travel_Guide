@@ -323,6 +323,52 @@ h1{
 #right {
   border-right: 1px solid #cccbcd;
 }
+
+
+
+
+.container_slide {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  margin-top: 150px;
+}
+.slide {
+  position: relative;
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+}
+.slide h5 {
+  position: absolute;
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+.slide.active { 
+  flex: 10;
+}
+.slide.active h5 {
+  opacity: 1;
+  transition: opacity .3s ease-in .4s;
+}
+
+
+
+
+
 .see_guides{
   display: flex;
   justify-content: space-between;
@@ -708,14 +754,7 @@ footer{
 .contact_us{
   display: block;
 }
-.text_footer p{
-  font-family: 'Anek Telugu';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color: rgba(255, 255, 255, 0.8);
-}
+
 .text_wrap{
   display: flex;
   align-items: center;
