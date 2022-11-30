@@ -367,9 +367,17 @@ h1{
   padding: 40px 50px;
   margin-bottom: 190px;
 }
-.guides_item:hover{
+.guides_item:hover {
   background-color: #FF5029;
 }
+
+.guides_item:hover > .guides_name{
+  color: white;
+}
+.guides_item:hover > .guides_sub{
+  color: white;
+}
+
 .guides_name{
   font-family: 'Anek Telugu';
   font-style: normal;
@@ -398,11 +406,17 @@ h1{
 .item_star{
 display: flex;
 justify-content: center;
+padding-bottom: 10px;
 }
 .img_star{
-  width: 20px;
+  background: url(../img/star_or.svg) no-repeat; /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 20px; /* Ширина рисунка */
+  height: 20px;
   margin-right: 6px;
-  padding-bottom: 10px;
+}
+.guides_item:hover > .item_star .img_star{
+  background: url(../img/star_w.svg) no-repeat;
 }
 .img_star:last-child{
   margin-right: 0;
@@ -693,6 +707,14 @@ footer{
 }
 .contact_us{
   display: block;
+}
+.text_footer p{
+  font-family: 'Anek Telugu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
 }
 .text_wrap{
   display: flex;
